@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <info>
-      <Issue_Title>Pop-up window does not disappear until the date is not changed</Issue_Title>
-	    <Issue_Type>Bug</Issue_Type>
+      	<Issue_Title>Pop-up window does not disappear until the date is not changed</Issue_Title>
+	<Issue_Type>Bug</Issue_Type>
     	<Priority>Low</Priority>
     	<Issue_Status>Blocked</Issue_Status>
     	<Created_by>Vasily Vasilkov</Created_by>
   
-	    <Title>Issue_Description</Title>
-    	  <Steps_to_reproduce>
-      	1. Select any dish
-      	2. Go to the basket
-      	3. Select a date next to the last delivery date in the menu (e.x. menu 8-14 Nov, select 15 Nov)
-       	4. After the pop-up "Delivery up to 14.11" appears, click on the "Change a date" button
-      	5. Look at the pop-up
-        </Steps_to_reproduce>
+	<Title>Issue_Description</Title>
+    		<Steps_to_reproduce>
+      		1. Select any dish
+      		2. Go to the basket
+      		3. Select a date next to the last delivery date in the menu (e.x. menu 8-14 Nov, select 15 Nov)
+       		4. After the pop-up "Delivery up to 14.11" appears, click on the "Change a date" button
+      		5. Look at the pop-up
+       		</Steps_to_reproduce>
 
- 	    <Expected_result>The pop-up "Delivery up to 14.11" does not appear</Expected_result>
+ 	 <Expected_result>The pop-up "Delivery up to 14.11" does not appear</Expected_result>
 
- 	    <Actual_result>The pop-up remains until the date is not changed to the suitable one</Actual_result>
+ 	 <Actual_result>The pop-up remains until the date is not changed to the suitable one</Actual_result>
 </info>
